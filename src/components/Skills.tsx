@@ -16,9 +16,9 @@ const SKILL_CATEGORIES = {
   Database: [
     'MongoDB', 'Supabase', 'PostgreSQL', 'SQL', 'Firebase', 'Prisma ORM'
   ],
-  Tools: [
-    'Git', 'Github', 
-  ]
+  // Tools: [
+  //   'Git', 'Github', 
+  // ]
 };
 
 interface SkillsProps {

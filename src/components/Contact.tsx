@@ -20,6 +20,7 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
     "IDLE"
   );
   const [statusText, setStatusText] = useState("");
+  const [copyStatus, setCopyStatus] = useState(false); // New state for email copy
 
   const [formData, setFormData] = useState({
     name: "",
@@ -61,6 +62,16 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
     }
   };
 
+  // New function to handle email copy
+  const handleEmailCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(email);
+      setCopyStatus(true);
+    } catch (err) {
+      setCopyStatus(false);
+    }
+  };
+
   useEffect(() => {
     if (status === "DONE" || status === "ERROR") {
       const timer = setTimeout(() => {
@@ -71,7 +82,14 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
         clearTimeout(timer);
       };
     }
-  }, [status]);
+    // Handle email copy popup
+    if (copyStatus) {
+      const timer = setTimeout(() => {
+        setCopyStatus(false);
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [status, copyStatus]);
 
   return (
     <motion.section className="relative" id="contact">
@@ -91,6 +109,17 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
             )}
           >
             <p className="text-black font-semibold">{statusText}</p>
+          </motion.li>
+        )}
+        {/* Email copied popup */}
+        {copyStatus && (
+          <motion.li
+            initial={{ opacity: 0, y: 50, scale: 0.3 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.5, transition: { duration: 0.2 } }}
+            className="fixed top-4 right-4 p-2 px-4 w-[220px] z-50 h-12 rounded-xl bg-green-400 flex items-center"
+          >
+            <p className="text-black font-semibold">Email copied!</p>
           </motion.li>
         )}
       </AnimatePresence>
@@ -175,7 +204,15 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
               </Transition>
               <div className="text-2xl md:text-4xl font-bold py-2">
                 <Transition>
-                  <TextReveal>{email}</TextReveal>
+                  {/* Make email clickable for copy */}
+                  <button
+                    type="button"
+                    onClick={handleEmailCopy}
+                    className="focus:outline-none hover:underline text-left"
+                    title="Click to copy email"
+                  >
+                    <TextReveal>{email}</TextReveal>
+                  </button>
                 </Transition>
               </div>
               <Transition>
@@ -211,10 +248,10 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
           <p>
             developed by @
             <Link
-              href={"https://twitter.com/tehseen_type"}
+              href={"https://github.com/Abhishek-IITP"}
               className="hover:underline"
             >
-              tehseen
+              Abhishek :)
             </Link>
           </p>
         </Transition>
