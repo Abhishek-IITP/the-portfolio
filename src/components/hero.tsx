@@ -44,13 +44,25 @@ const Hero = ({ about }: HeroProps) => {
               </p>
             </Transition>
             <Transition viewport={{ once: true }}>
-              <Link
-                href={"#contact"}
-                className="px-5 py-3 mt-4 rounded-full border border-white/50 flex items-center gap-2 group"
-              >
-                <TextReveal>Let&apos;s talk</TextReveal>
-                <ArrowUpRight />
-              </Link>
+              <div className="flex flex-col md:flex-row gap-4 w-full justify-center items-center mt-4">
+                <Link
+                  href={"#contact"}
+                  className="px-5 py-3 rounded-full border border-white/50 flex items-center gap-2 group"
+                >
+                  <TextReveal>Let&apos;s talk</TextReveal>
+                  <ArrowUpRight />
+                </Link>
+                <a
+                  href="/resume.pdf"
+                  download
+                  className="px-5 py-3 rounded-full border border-white/50 flex items-center gap-2 group hover:bg-primary text-white transition-colors duration-200"
+                >
+                  <TextReveal>Download Resume</TextReveal>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v11.25m0 0l4.5-4.5m-4.5 4.5l-4.5-4.5M4.5 19.5h15" />
+                  </svg>
+                </a>
+              </div>
             </Transition>
           </div>
         </div>

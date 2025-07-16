@@ -32,19 +32,19 @@ const ProjectDialog = ({
           </button>
           <img
             src={selectedProject.image.url}
-            width={300}
-            height={300}
+            width={500}
+            height={500}
             alt={selectedProject.title}
-            className="w-full h-full aspect-video md:aspect-[12/6] object-cover object-center"
+            className="object-contain h-full w-full object-center rounded-xl md:rounded-t-3xl"
           />
           <div className="p-3">
             <div className="flex items-center justify-between">
               <h5 className="text-4xl font-bold">{selectedProject.title}</h5>
               <div className="flex items-center gap-4">
-                <Link href={selectedProject.githuburl}>
+                <Link target="_blank" href={selectedProject.githuburl}>
                   <Github />
                 </Link>
-                <Link href={selectedProject.liveurl}>
+                <Link target="_blank" href={selectedProject.liveurl}>
                   <ExternalLink />
                 </Link>
               </div>
@@ -60,10 +60,7 @@ const ProjectDialog = ({
               ))}
             </div>
             <p className="text-white/50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, tempora. Officiis eveniet harum nemo sed sint
-              distinctio fugiat earum cumque aliquid in magnam nam odio
-              molestias architecto veniam, asperiores voluptates?
+              {selectedProject.description}
             </p>
           </div>
         </div>

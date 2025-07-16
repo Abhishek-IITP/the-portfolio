@@ -64,9 +64,7 @@ export const HoverImage = ({
           <h4 className="relative z-10 block text-2xl sm:text-4xl font-semibold md:font-bold md:text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl tracking-tighter">
             {heading}
           </h4>
-          <span className="md:text-2xl text-foreground/50 md:hidden">
-            {price}
-          </span>
+
         </div>
         <p className="relative z-10 mt-2 block md:text-base text-sm text-foreground/50 transition-colors duration-500 group-hover:text-neutral-50 pt-2">
           {subheading}

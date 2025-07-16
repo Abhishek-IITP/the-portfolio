@@ -16,9 +16,6 @@ const SKILL_CATEGORIES = {
   Database: [
     'MongoDB', 'Supabase', 'PostgreSQL', 'SQL', 'Firebase', 'Prisma ORM'
   ],
-  // Tools: [
-  //   'Git', 'Github', 
-  // ]
 };
 
 interface SkillsProps {
@@ -29,7 +26,7 @@ function Skills({ skills }: SkillsProps) {
   return (
     <section id="skills" className="py-16 px-4 md:px-8">
       <h2 className="text-4xl font-extrabold mb-10 text-center tracking-tight">Skills</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Object.entries(SKILL_CATEGORIES).map(([category, names], idx) => (
           <motion.div
             key={category}

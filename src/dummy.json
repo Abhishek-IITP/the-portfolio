@@ -103,15 +103,19 @@
     { "enabled": true, "name": "FastAPI", "sequence": 11, "percentage": 85, "image": { "public_id": "fastapi-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" }, "_id": "sk19" },
     { "enabled": true, "name": "Socket.io", "sequence": 12, "percentage": 85, "image": { "public_id": "socketio-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" }, "_id": "sk20" },
     { "enabled": true, "name": "GraphQL", "sequence": 13, "percentage": 80, "image": { "public_id": "graphql-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" }, "_id": "sk21" },
-    { "enabled": true, "name": "Supabase", "sequence": 14, "percentage": 80, "image": { "public_id": "supabase-icon", "url": "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" }, "_id": "sk22" },
-    { "enabled": true, "name": "Firebase", "sequence": 15, "percentage": 80, "image": { "public_id": "1706287155946-z2oybb", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287155946-z2oybb" }, "_id": "sk12" },
+    { "enabled": true, "name": "Supabase", "sequence": 14, "percentage": 80, "image": { "public_id": "supabase-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" }, "_id": "sk22" },
+    { "enabled": true, "name": "Firebase", "sequence": 15, "percentage": 80, "image": { "public_id": "1706287155946-z2oybb", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" }, "_id": "sk12" },
+    { "enabled": true, "name": "Docker", "sequence": 21, "percentage": 75, "image": { "public_id": "docker-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" }, "_id": "sk23docker" },
     { "enabled": true, "name": "Git", "sequence": 16, "percentage": 95, "image": { "public_id": "1706286842731-r0eyn", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286842731-r0eyn" }, "_id": "sk13" },
     { "enabled": true, "name": "MongoDB", "sequence": 11, "percentage": 70, "image": { "public_id": "1706286966065-p2yrx9", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286966065-p2yrx9" }, "_id": "sk11" },
     { "enabled": true, "name": "Flask", "sequence": 13, "percentage": 80, "image": { "public_id": "1706287138776-slfc3e", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287138776-slfc3e" }, "_id": "sk13" },
     { "enabled": true, "name": "EJS", "sequence": 14, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk14" },
     { "enabled": true, "name": "LangChain", "sequence": 16, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk16" },
     { "enabled": true, "name": "GenAI", "sequence": 17, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk17" },
-    { "enabled": true, "name": "TenStack Query", "sequence": 18, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk18" }
+    { "enabled": true, "name": "TenStack Query", "sequence": 18, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk18" },
+    { "enabled": true, "name": "SQL", "sequence": 19, "percentage": 85, "image": { "public_id": "sql-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" }, "_id": "sk21sql" },
+    { "enabled": true, "name": "PostgreSQL", "sequence": 20, "percentage": 80, "image": { "public_id": "postgresql-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }, "_id": "sk22pg" },
+    { "enabled": true, "name": "Prisma ORM", "sequence": 22, "percentage": 75, "image": { "public_id": "prisma-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" }, "_id": "sk24prisma" }
   ],
   "youtube": [
     {
@@ -130,13 +134,13 @@
       "sequence": 1,
       "description": "Secure login with Google OAuth, JWT authentication, and email verification. User profiles with Cloudinary-powered image upload and customization. Create, edit, and publish blogs using rich EditorJS with media support. Interactive features: likes, nested comments, and follower system to boost engagement. Optimized backend architecture following MVC pattern for maintainability. Responsive UI ensuring seamless experience across devices.",
       "techStack": ["Node.js", "Express.js","MongoDB", "React",  "Firebase","Redux"],
-      "liveurl": "#",
-      "githuburl": "#",
+      "liveurl": "https://blog-sphere-zx96.vercel.app/",
+      "githuburl": "https://github.com/Abhishek-IITP/BlogSphere",
       "enabled": true,
       "_id": "proj1",
       "image": {
         "public_id": "placeholder-proj1",
-        "url": "https://placehold.co/600x400?text=BlogSphere"
+        "url": "/BlogSphere.png"
       }
     },
     {
@@ -144,13 +148,13 @@
       "sequence": 2,
       "description": "Analyzes patient medical reports using LLAMA via Groq API and LangChain. Accepts PDFs and generates structured diagnostic summaries. Responsive, user-friendly UI with smooth report interaction.",
       "techStack": ["Flask", "EJS", "LangChain", "GenAI"],
-      "liveurl": "#",
-      "githuburl": "#",
+      "liveurl": "https://github.com/Abhishek-IITP/Medical-Report-Analyzer",
+      "githuburl": "https://github.com/Abhishek-IITP/Medical-Report-Analyzer",
       "enabled": true,
       "_id": "proj2",
       "image": {
         "public_id": "placeholder-proj2",
-        "url": "https://placehold.co/600x400?text=Medical+Report+Analyzer"
+        "url": "/mediScan.png"
       }
     },
     {
@@ -158,13 +162,13 @@
       "sequence": 3,
       "description": "Real-time chat and video calls with friend system. JWT auth with secure onboarding and protected routes. 30+ UI themes with responsive and mobile-friendly design.",
       "techStack": ["Node.js", "Express.js", "MongoDB", "React", "TenStack Query"],
-      "liveurl": "#",
-      "githuburl": "#",
+      "liveurl": "https://pingme-1-r94w.onrender.com/",
+      "githuburl": "https://github.com/Abhishek-IITP/PingMe",
       "enabled": true,
       "_id": "proj3",
       "image": {
         "public_id": "placeholder-proj3",
-        "url": "https://placehold.co/600x400?text=PingMe"
+        "url": "/PingMe.png"
       }
     }
   ],
@@ -173,8 +177,8 @@
       "platform": "LinkedIn",
       "url": "https://www.linkedin.com/in/abhishekiitp891/",
       "image": {
-        "public_id": "1708718263294-2lfj67.webp",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718263294-2lfj67.webp"
+        "public_id": "linkedin-icon",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
       },
       "enabled": true,
       "_id": "soc1"
@@ -183,8 +187,8 @@
       "platform": "GitHub",
       "url": "https://github.com/Abhishek-IITP",
       "image": {
-        "public_id": "1708718250873-3038n7.webp",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718250873-3038n7.webp"
+        "public_id": "github-icon",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
       },
       "enabled": true,
       "_id": "soc2"
@@ -193,7 +197,6 @@
   "services": [
     {
       "name": "App Development",
-      "charge": "$300",
       "desc": "Design direction for business. Get your business on the next level. We help to create great experiences.",
       "enabled": true,
       "_id": "65f1fd690556c3f887e9d94a",
@@ -204,7 +207,6 @@
     },
     {
       "name": "Web & App ",
-      "charge": "$600",
       "desc": "I build brands through cultural insights & strategic vision. Custom crafted business solutions.",
       "image": {
         "public_id": "portfolio3/1710357775748-9vwq4q.jpeg",
@@ -215,7 +217,6 @@
     },
     {
       "name": "UI/UX Solutions",
-      "charge": "$399",
       "desc": "Design direction for business. Get your business on the next level. We help to create great experiences.",
       "image": {
         "public_id": "1706290914024-725ytf",
@@ -223,39 +224,6 @@
         "_id": "65b3eee8eb20546ae6d467fe"
       },
       "_id": "65b3e33db48589dfcae1851d",
-      "enabled": true
-    },
-    {
-      "name": "Global Marketing",
-      "charge": "$699",
-      "desc": "Custom marketing solutions. Get your business on the next level. We provide worldwide marketing.",
-      "image": {
-        "public_id": "portfolio3/1710357668346-ke8kgt.jpeg",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357668346-ke8kgt.jpeg"
-      },
-      "_id": "65b3e322b48589dfcae184d0",
-      "enabled": true
-    },
-    {
-      "name": "Brand Consultant",
-      "charge": "$499",
-      "desc": "I build brands through cultural insights & strategic vision. Custom crafted business solutions.",
-      "image": {
-        "public_id": "portfolio3/1710357680224-phijt.png",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357680224-phijt.png"
-      },
-      "_id": "65b3e2f6b48589dfcae1843b",
-      "enabled": true
-    },
-    {
-      "name": "Wordpress Development",
-      "charge": "$499",
-      "desc": "Get yourself a website.",
-      "image": {
-        "public_id": "portfolio3/1710357752227-6f5trs.jpeg",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357752227-6f5trs.jpeg"
-      },
-      "_id": "65b3e2a6b48589dfcae183f2",
       "enabled": true
     }
   ],
