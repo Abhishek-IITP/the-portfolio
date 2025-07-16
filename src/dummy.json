@@ -1,0 +1,325 @@
+{
+  "about": {
+    "name": "Abhishek  Mohanty",
+    "title": "Full Stack Developer ",
+    "subTitle": "I develop data-driven solutions, user interfaces, and web applications",
+    "description": "As a Computer Science and Data Analytics student at IIT Patna, I have experience in full stack development, machine learning, and research. I am passionate about building innovative solutions and collaborating with diverse teams.",
+    "quote": "Live the Life as you want",
+    "exp_year": "2",
+    "address": "Jamshedpur, Jharkhand",
+    "some_total": "90",
+    "phoneNumber": "9304669521",
+    "contactEmail": "abhishekmohanty7325@gmail.com",
+    "avatar": {
+      "public_id": "portfolio3/1713995155677-122l5x.webp",
+      "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1713995155677-122l5x.webp"
+    },
+    "alternateAvatars": []
+  },
+  "usageMetrics": {
+    "visits": 0,
+    "downloads": 0
+  },
+  "_id": "65b3a22c01d900e96c4219ae",
+  "username": "portfolio3",
+  "email": "abhishekmohanty7325@gmail.com",
+  "role": "admin",
+  "timeline": [
+    {
+      "company_name": "Indian Institute of Technology Patna (CPI: 8.68)",
+      "summary": "Bachelor of Science in Computer Science and Data Analytics",
+      "sequence": 1,
+      "startDate": "2023-08-01T00:00:00.000Z",
+      "endDate": "2027-08-01T00:00:00.000Z",
+      "jobTitle": "Student",
+      "jobLocation": "Bihta, Patna",
+      "bulletPoints": [
+        "Pursuing B.Sc. in Computer Science and Data Analytics."
+      ],
+      "forEducation": true,
+      "enabled": true,
+      "_id": "edu1"
+    },
+    {
+      "company_name": "Netaji Subhash Public School (PCM: 91%)",
+      "summary": "Senior Secondary",
+      "sequence": 2,
+      "startDate": "2020-08-01T00:00:00.000Z",
+      "endDate": "2022-05-01T00:00:00.000Z",
+      "jobTitle": "Student",
+      "jobLocation": "Jamshedpur",
+      "bulletPoints": [
+        "Completed Senior Secondary with PCM (91%)."
+      ],
+      "forEducation": true,
+      "enabled": true,
+      "_id": "edu2"
+    },
+    {
+      "company_name": "Capstone Project Leader",
+      "summary": "Lead a team of 5 to deliver a successful capstone project. Presented to professors from IIT Patna and IIIT Allahabad, showcasing innovation.",
+      "sequence": 3,
+      "startDate": "2024-03-01T00:00:00.000Z",
+      "endDate": "2024-06-01T00:00:00.000Z",
+      "jobTitle": "Capstone Project Leader",
+      "jobLocation": "IIT Patna",
+      "bulletPoints": [
+        "Lead a team of 5 to deliver a successful capstone project.",
+        "Presented to professors from IIT Patna and IIIT Allahabad, showcasing innovation."
+      ],
+      "forEducation": false,
+      "enabled": true,
+      "_id": "exp1"
+    },
+    {
+      "company_name": "Research Intern",
+      "summary": "Research on Brain Tumor Detection using hybrid optimization under Dr. Parijata Majumdar. Integrating GWO with ELM for feature selection and classification. Using Decision Tree and Random Forest classifiers; aiming for SCI/IEEE publication.",
+      "sequence": 4,
+      "startDate": "2025-05-01T00:00:00.000Z",
+      "endDate": "2025-12-01T00:00:00.000Z",
+      "jobTitle": "Research Intern",
+      "jobLocation": "IIIT Agartala, Tripura",
+      "bulletPoints": [
+        "Research on Brain Tumor Detection using hybrid optimization under Dr. Parijata Majumdar.",
+        "Integrating GWO with ELM for feature selection and classification.",
+        "Using Decision Tree and Random Forest classifiers; aiming for SCI/IEEE publication."
+      ],
+      "forEducation": false,
+      "enabled": true,
+      "_id": "exp2"
+    }
+  ],
+  "skills": [
+    { "enabled": true, "name": "HTML", "sequence": 1, "percentage": 98, "image": { "public_id": "1706286058630-v3ax0a", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286058630-v3ax0a" }, "_id": "sk1" },
+    { "enabled": true, "name": "CSS", "sequence": 2, "percentage": 97, "image": { "public_id": "1706286273084-romle", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286273084-romle" }, "_id": "sk2" },
+    { "enabled": true, "name": "Javascript", "sequence": 3, "percentage": 95, "image": { "public_id": "1706288679775-y4qwn3", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288679775-y4qwn3" }, "_id": "sk3" },
+    { "enabled": true, "name": "TypeScript", "sequence": 4, "percentage": 90, "image": { "public_id": "1706287104739-pm8en", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287104739-pm8en" }, "_id": "sk4" },
+    { "enabled": true, "name": "React", "sequence": 5, "percentage": 90, "image": { "public_id": "1706291833080-0loo09", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706291833080-0loo09" }, "_id": "sk5" },
+    { "enabled": true, "name": "Redux", "sequence": 6, "percentage": 95, "image": { "public_id": "1706286913147-nwiky8", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286913147-nwiky8" }, "_id": "sk6" },
+    { "enabled": true, "name": "Next.js", "sequence": 7, "percentage": 90, "image": { "public_id": "1706286682511-rgp96r", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286682511-rgp96r" }, "_id": "sk7" },
+    { "enabled": true, "name": "Tailwind", "sequence": 8, "percentage": 99, "image": { "public_id": "1706286616701-2jka3q", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286616701-2jka3q" }, "_id": "sk8" },
+    { "enabled": true, "name": "Node.js", "sequence": 9, "percentage": 92, "image": { "public_id": "1706286990341-tznh4", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286990341-tznh4" }, "_id": "sk9" },
+    { "enabled": true, "name": "Express.js", "sequence": 10, "percentage": 90, "image": { "public_id": "1706288734207-4rlz3m", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288734207-4rlz3m" }, "_id": "sk10" },
+    { "enabled": true, "name": "FastAPI", "sequence": 11, "percentage": 85, "image": { "public_id": "fastapi-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" }, "_id": "sk19" },
+    { "enabled": true, "name": "Socket.io", "sequence": 12, "percentage": 85, "image": { "public_id": "socketio-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" }, "_id": "sk20" },
+    { "enabled": true, "name": "GraphQL", "sequence": 13, "percentage": 80, "image": { "public_id": "graphql-icon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" }, "_id": "sk21" },
+    { "enabled": true, "name": "Supabase", "sequence": 14, "percentage": 80, "image": { "public_id": "supabase-icon", "url": "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" }, "_id": "sk22" },
+    { "enabled": true, "name": "Firebase", "sequence": 15, "percentage": 80, "image": { "public_id": "1706287155946-z2oybb", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287155946-z2oybb" }, "_id": "sk12" },
+    { "enabled": true, "name": "Git", "sequence": 16, "percentage": 95, "image": { "public_id": "1706286842731-r0eyn", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286842731-r0eyn" }, "_id": "sk13" },
+    { "enabled": true, "name": "MongoDB", "sequence": 11, "percentage": 70, "image": { "public_id": "1706286966065-p2yrx9", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706286966065-p2yrx9" }, "_id": "sk11" },
+    { "enabled": true, "name": "Flask", "sequence": 13, "percentage": 80, "image": { "public_id": "1706287138776-slfc3e", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706287138776-slfc3e" }, "_id": "sk13" },
+    { "enabled": true, "name": "EJS", "sequence": 14, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk14" },
+    { "enabled": true, "name": "Tadtrud", "sequence": 15, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk15" },
+    { "enabled": true, "name": "LangChain", "sequence": 16, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk16" },
+    { "enabled": true, "name": "GenAI", "sequence": 17, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk17" },
+    { "enabled": true, "name": "TenStack Query", "sequence": 18, "percentage": 80, "image": { "public_id": "1706288708710-nrq74s", "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706288708710-nrq74s" }, "_id": "sk18" }
+  ],
+  "youtube": [
+    {
+      "url": "",
+      "title": "Sample Video",
+      "sequence": 1,
+      "image": null,
+      "embedId": "eitWM4gNZoM",
+      "enabled": true,
+      "_id": "65f482e5d689e5777d9457ae"
+    }
+  ],
+  "projects": [
+    {
+      "title": "BlogSphere",
+      "sequence": 1,
+      "description": "Secure login with Google OAuth, JWT authentication, and email verification. User profiles with Cloudinary-powered image upload and customization. Create, edit, and publish blogs using rich EditorJS with media support. Interactive features: likes, nested comments, and follower system to boost engagement. Optimized backend architecture following MVC pattern for maintainability. Responsive UI ensuring seamless experience across devices.",
+      "techStack": ["MongoDB", "Express.js", "React", "Node.js", "Firebase"],
+      "liveurl": "#",
+      "githuburl": "#",
+      "enabled": true,
+      "_id": "proj1",
+      "image": {
+        "public_id": "placeholder-proj1",
+        "url": "https://placehold.co/600x400?text=BlogSphere"
+      }
+    },
+    {
+      "title": "Medical Report Analyzer",
+      "sequence": 2,
+      "description": "Analyzes patient medical reports using LLAMA via Groq API and LangChain. Accepts PDFs and generates structured diagnostic summaries. Responsive, user-friendly UI with smooth report interaction.",
+      "techStack": ["Flask", "EJS", "Tadtrud", "LangChain", "GenAI"],
+      "liveurl": "#",
+      "githuburl": "#",
+      "enabled": true,
+      "_id": "proj2",
+      "image": {
+        "public_id": "placeholder-proj2",
+        "url": "https://placehold.co/600x400?text=Medical+Report+Analyzer"
+      }
+    },
+    {
+      "title": "PingMe – A Social App",
+      "sequence": 3,
+      "description": "Real-time chat and video calls with friend system. JWT auth with secure onboarding and protected routes. 30+ UI themes with responsive and mobile-friendly design.",
+      "techStack": ["Node.js", "Express.js", "MongoDB", "React", "Tadtrud", "TenStack Query"],
+      "liveurl": "#",
+      "githuburl": "#",
+      "enabled": true,
+      "_id": "proj3",
+      "image": {
+        "public_id": "placeholder-proj3",
+        "url": "https://placehold.co/600x400?text=PingMe"
+      }
+    }
+  ],
+  "social_handles": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/abhishekiitp891/",
+      "image": {
+        "public_id": "1708718263294-2lfj67.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718263294-2lfj67.webp"
+      },
+      "enabled": true,
+      "_id": "soc1"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Abhishek-IITP",
+      "image": {
+        "public_id": "1708718250873-3038n7.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718250873-3038n7.webp"
+      },
+      "enabled": true,
+      "_id": "soc2"
+    }
+  ],
+  "services": [
+    {
+      "name": "App Development",
+      "charge": "$300",
+      "desc": "Design direction for business. Get your business on the next level. We help to create great experiences.",
+      "enabled": true,
+      "_id": "65f1fd690556c3f887e9d94a",
+      "image": {
+        "public_id": "portfolio3/1710364293287-4q1ngo.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710364293287-4q1ngo.webp"
+      }
+    },
+    {
+      "name": "Web & App ",
+      "charge": "$600",
+      "desc": "I build brands through cultural insights & strategic vision. Custom crafted business solutions.",
+      "image": {
+        "public_id": "portfolio3/1710357775748-9vwq4q.jpeg",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357775748-9vwq4q.jpeg"
+      },
+      "enabled": true,
+      "_id": "65f1fd100556c3f887e9d87b"
+    },
+    {
+      "name": "UI/UX Solutions",
+      "charge": "$399",
+      "desc": "Design direction for business. Get your business on the next level. We help to create great experiences.",
+      "image": {
+        "public_id": "1706290914024-725ytf",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706290914024-725ytf",
+        "_id": "65b3eee8eb20546ae6d467fe"
+      },
+      "_id": "65b3e33db48589dfcae1851d",
+      "enabled": true
+    },
+    {
+      "name": "Global Marketing",
+      "charge": "$699",
+      "desc": "Custom marketing solutions. Get your business on the next level. We provide worldwide marketing.",
+      "image": {
+        "public_id": "portfolio3/1710357668346-ke8kgt.jpeg",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357668346-ke8kgt.jpeg"
+      },
+      "_id": "65b3e322b48589dfcae184d0",
+      "enabled": true
+    },
+    {
+      "name": "Brand Consultant",
+      "charge": "$499",
+      "desc": "I build brands through cultural insights & strategic vision. Custom crafted business solutions.",
+      "image": {
+        "public_id": "portfolio3/1710357680224-phijt.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357680224-phijt.png"
+      },
+      "_id": "65b3e2f6b48589dfcae1843b",
+      "enabled": true
+    },
+    {
+      "name": "Wordpress Development",
+      "charge": "$499",
+      "desc": "Get yourself a website.",
+      "image": {
+        "public_id": "portfolio3/1710357752227-6f5trs.jpeg",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357752227-6f5trs.jpeg"
+      },
+      "_id": "65b3e2a6b48589dfcae183f2",
+      "enabled": true
+    }
+  ],
+  "testimonials": [
+    {
+      "image": {
+        "public_id": "portfolio3/1710357726628-c4dr18.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357726628-c4dr18.png"
+      },
+      "name": "Samantha Wu",
+      "review": "I had the pleasure of working closely with John on a challenging project. He is a highly skilled developer who consistently delivered excellent results. His ability to understand complex requirements and implement efficient solutions was truly impressive. I would highly recommend him to any organization looking for a talented developer.",
+      "position": "Software Engineer",
+      "enabled": true,
+      "_id": "65f1fcdf0556c3f887e9d74c"
+    },
+    {
+      "image": {
+        "public_id": "portfolio3/1710357705657-aimydg.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357705657-aimydg.png"
+      },
+      "name": "David Rodriguez",
+      "review": "Throughout our project, John demonstrated exceptional technical skills and a strong work ethic. He consistently met deadlines and produced high-quality code that exceeded our expectations. His proactive approach to problem-solving and effective communication made him a valuable member of our team\n",
+      "position": "Project Manager",
+      "enabled": true,
+      "_id": "65f1fcca0556c3f887e9d6e8"
+    },
+    {
+      "image": {
+        "public_id": "portfolio3/1710357683739-tqeav.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357683739-tqeav.png"
+      },
+      "name": " Emily Chen",
+      "review": "I had the pleasure of collaborating with John on a complex web application project. His ability to translate design concepts into functional, user-friendly features was impressive. John consistently delivered high-quality work and was always open to feedback. I look forward to working with him again in the future.\n\n",
+      "position": " Emily Chen",
+      "enabled": true,
+      "_id": "65f1fcb30556c3f887e9d662"
+    },
+    {
+      "image": {
+        "public_id": "portfolio3/1710357647030-pi5cis.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357647030-pi5cis.png"
+      },
+      "name": " Michael Lee",
+      "review": "John is a skilled developer with a keen eye for detail. He played a crucial role in our team, consistently producing clean, efficient code. His collaborative nature and willingness to take on new challenges make him an invaluable asset to any project.\"",
+      "position": " Lead Developer",
+      "enabled": true,
+      "_id": "65f1fc8f0556c3f887e9d4e5"
+    },
+    {
+      "image": {
+        "public_id": "portfolio3/1710357534893-2s9b5d.png",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357534893-2s9b5d.png"
+      },
+      "name": "Sarah Johnson",
+      "review": "Working with John was an absolute delight. Their professionalism and technical prowess were evident from day one. He consistently delivered top-notch code and went above and beyond to ensure the success of our project. I highly recommend him for any development endeavor",
+      "position": " Product Manager",
+      "enabled": true,
+      "_id": "65f1fc1f0556c3f887e9d31d"
+    }
+  ],
+  "createdAt": "2024-01-26T12:14:36.514Z",
+  "updatedAt": "2024-05-08T17:53:29.758Z",
+  "__v": 74,
+  "refreshToken": ""
+}
+
