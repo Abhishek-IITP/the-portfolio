@@ -143,7 +143,7 @@
       "title": "Medical Report Analyzer",
       "sequence": 2,
       "description": "Analyzes patient medical reports using LLAMA via Groq API and LangChain. Accepts PDFs and generates structured diagnostic summaries. Responsive, user-friendly UI with smooth report interaction.",
-      "techStack": ["Flask", "EJS", "Tadtrud", "LangChain", "GenAI"],
+      "techStack": ["Flask", "EJS", "LangChain", "GenAI"],
       "liveurl": "#",
       "githuburl": "#",
       "enabled": true,
