@@ -71,7 +71,7 @@ export interface SocialHandle {
 
 export interface Service {
   name: string;
-  charge: string;
+  charge?: string;
   desc: string;
   enabled: boolean;
   _id: string;

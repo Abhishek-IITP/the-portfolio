@@ -26,6 +26,7 @@ function Services({ services }: ServiceProps) {
               heading={service.name}
               imgSrc={service.image.url}
               subheading={service.desc}
+              price={service.charge || ""}
             />
           </Transition>
         ))}
