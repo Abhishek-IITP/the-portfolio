@@ -67,6 +67,10 @@ function Projects({ projects }: ProjectsProps) {
               <Card {...project} />
             </Transition>
           ))}
+        {/* Blur overlay when dialog is open */}
+        {selectedProject && (
+          <div className="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm transition-all duration-300" />
+        )}
         <AnimatePresence>
           {selectedProject && (
             <div className="rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col">
@@ -149,7 +153,7 @@ const Card = ({ title, image, description }: Project) => {
         width={500}
         height={500}
         alt={title}
-        className="object-contain h-full w-full object-center rounded-xl  bg-white"
+        className="object-contain h-[370px] w-full object-center rounded-xl bg-white"
       />
     </motion.div>
   );
