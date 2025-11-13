@@ -1,6 +1,6 @@
 # Portfolio Project
 
-![Modern Portfolio Website](https://github.com/user-attachments/assets/4f82669c-9a5a-4761-a927-2f54f0f64169)
+![Modern Portfolio Website](https://github.com/Abhishek-IITP/Abhishek-IITP/blob/main/Screenshot%202025-11-13%20200838.png)
 
 ## Overview
 
