@@ -18,14 +18,13 @@ export default async function Home() {
 
   const {
     about,
-    testimonials,
     services,
     skills,
     projects,
     social_handles,
     timeline,
     email,
-  } = portfolio as Portfolio;
+  } = portfolio as unknown as Portfolio;
 
   return (
     <main className="relative">

@@ -84,7 +84,7 @@ This project is a portfolio website template showcasing skills, projects, and ex
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/tehseen01/the-portfolio.git
+   git clone https://github.com/Abhishek-IITP/the-portfolio.git
    ```
 
 2. Navigate to the project directory:

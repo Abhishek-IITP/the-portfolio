@@ -76,7 +76,7 @@
       "summary": "Research on Brain Tumor Detection using hybrid optimization under Dr. Parijata Majumdar. Integrating GWO with ELM for feature selection and classification. Using Decision Tree and Random Forest classifiers; aiming for SCI/IEEE publication.",
       "sequence": 4,
       "startDate": "2025-05-01T00:00:00.000Z",
-      "endDate": "2025-12-01T00:00:00.000Z",
+      "endDate": "2025-09-01T00:00:00.000Z",
       "jobTitle": "Research Intern",
       "jobLocation": "IIIT Agartala, Tripura",
       "bulletPoints": [
@@ -87,6 +87,22 @@
       "forEducation": false,
       "enabled": true,
       "_id": "exp2"
+    },
+    {
+      "company_name": "Full Stack Developer Intern",
+      "summary": "Full Stack Developer Intern at Code With Dhruv. Built key features for a Next.js + Supabase admin panel, added pagination, filters, CSV export, and improved UI with reusable components and a complete promotion management flow.",
+      "sequence": 5,
+      "startDate": "2025-07-01T00:00:00.000Z",
+      "endDate": "2025-10-01T00:00:00.000Z",
+      "jobTitle": "Full Stack Developer Intern",
+      "jobLocation": "Remote",
+      "bulletPoints": [
+        "Built key features for a Next.js + Supabase admin platform, including paginated tables, filtering, CSV export,optimized API routes, and server-side pagination across orders and inventory modules.",
+        "Improved overall UI/UX with reusable components, dark mode support, media validation, fallback handling, and delivered a full Promotion management workflow with CRUD APIs and automated updates."
+      ],
+      "forEducation": false,
+      "enabled": true,
+      "_id": "exp3"
     }
   ],
   "skills": [

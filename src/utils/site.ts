@@ -11,5 +11,5 @@ export const siteConfig = {
     twitter: "https://x.com/abhishek_891",
     github: "https://github.com/Abhishek-IITP",
   },
-  mailSupport: "tehseen.type@gmail.com",
+  mailSupport: "abhishekmohanty7325@gmail.com",
 };

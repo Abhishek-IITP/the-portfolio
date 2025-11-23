@@ -44,21 +44,29 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
     setStatus("SENDING");
 
     try {
-      console.log("Form data:", formData);
-      setTimeout(() => {
-        setStatus("DONE");
-        setFormData({
-          email: "",
-          message: "",
-          name: "",
-          subject: "",
-        });
-        setStatusText("Message sent successfully!");
-      }, 3000);
+      // Send form data to server API route
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        setStatus("ERROR");
+        setStatusText(data?.error || "Failed to send message.");
+        return;
+      }
+
+      setStatus("DONE");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+      setStatusText(data?.message || "Message sent successfully!");
     } catch (error: any) {
       setStatus("ERROR");
-      setStatusText("Error in sending message: " + error.message);
-      console.error("Error sending message:", error.message);
+      setStatusText("Error in sending message: " + (error?.message || "unknown"));
+      // eslint-disable-next-line no-console
+      console.error("Error sending message:", error);
     }
   };
 
