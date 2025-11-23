@@ -123,19 +123,6 @@ Contributions are welcome! Please follow these steps:
 - Write meaningful commit messages
 - Add appropriate documentation
 - Ensure all tests pass
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-For questions or feedback, reach out through:
-
-- Email: tehseen.type@gmail.com
-- Twitter: [@tehseen_type](https://twitter.com/tehseen_type)
-- LinkedIn: [Mohd Tehseen](https://linkedin.com/in/tehseen.01)
-
 ---
 
-Built with ❤️ by [Mohd Tehseen]
+Built with ❤️ by [Abhishek]
