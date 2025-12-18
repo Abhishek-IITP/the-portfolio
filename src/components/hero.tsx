@@ -53,7 +53,7 @@ const Hero = ({ about }: HeroProps) => {
                   <ArrowUpRight />
                 </Link>
                 <a
-                  href="public/resume26.pdf"
+                  href="/resume26.pdf"
                   download
                   className="px-5 py-3 rounded-full border border-white/50 flex items-center gap-2 group hover:bg-primary text-white transition-colors duration-200"
                 >
