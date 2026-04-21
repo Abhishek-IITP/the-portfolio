@@ -47,8 +47,7 @@ export function constructMetadata({
       title,
       description,
       siteName: title,
-    },
-    images: [
+      images: [
         {
           url: image,
           width: 1200,
@@ -56,6 +55,7 @@ export function constructMetadata({
           alt: title,
         },
       ],
+    },
     twitter: {
       card: "summary_large_image",
       title,
